@@ -40,20 +40,25 @@ body {
 /* NAVIGATION */
 .navbar {
   background-color: #000;
+  
 }
 .navbar-brand {
   font-weight: bold;
   display: flex;
   align-items: center;
   margin-left: -6%;
+  
 }
 
 /* Navigation Links */
 .nav-link {
   color: white !important;
 }
+
 .nav-link:hover {
+  text-decoration: none;
   color: #f00 !important;
+  border-bottom: 3px solid #f00;
 }
 
 /* Offcanvas Menu */
@@ -90,6 +95,10 @@ body {
     margin-left: 0;
   }
 
+  .nav-link:hover {
+    border-bottom: none;
+  }
+
   .menu-nav {
     flex-direction: row;
     align-items: center;
@@ -109,6 +118,8 @@ body {
   .navbar-toggler {
     display: none;
   }
+
+
   .offcanvas {
     display: none !important;
   }
@@ -121,12 +132,15 @@ body {
   .navbar-brand {
     margin-left: -2.5%;
   }
+
+
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .navbar-brand {
     margin-left: -4.5%;
   }
+
 }
 
 @media (min-width: 1440px) and (max-width: 2560px) {
@@ -134,4 +148,5 @@ body {
     display: flex;
     justify-content: space-between;
   }
+
 }
