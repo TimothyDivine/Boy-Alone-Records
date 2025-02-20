@@ -5,6 +5,12 @@ body {
   box-sizing: border-box;
 }
 
+.artistbody {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #hero {
   margin-left: 85.2%;
   scale: 0.9;
@@ -55,6 +61,13 @@ body {
   color: white !important;
 }
 
+#nav-bar {
+  color: white;
+}
+
+#nav-bar:hover {
+  margin-top: 0.30%;
+}
 .nav-link:hover {
   text-decoration: none;
   color: #f00 !important;
@@ -98,14 +111,14 @@ body {
   justify-content: center;
 }
 .card img {
-  border-radius: 10px;
+  border-radius: 5px;
   height: 300px;
   object-fit: cover;
 }
 .card-body {
 background-color: #000;
-border-bottom-right-radius: 15px;
-border-bottom-left-radius: 15px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
 
 }
 
