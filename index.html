@@ -32,7 +32,7 @@
   />
   <link rel="shortcut" href="/assets/BOY ALONE LABEL icon.png" />
 
-  <body style="background-color: #000;">
+  <body>
     <header>
     <nav class="navbar navbar-dark bg-black navbar-expand-lg">
       <div class="container">
@@ -234,7 +234,80 @@
     </section>
 
     <!-- BODY SECTION -->
-   <button class="rel"> <a style="text-decoration: none; color: white;" href="releases.html"><h1 ><b>Latest Releases 2025 <b style="scale: 9rem;">>></b></a></h1></button>
+    <div class="btn-container">
+      <a href="releases.html" class="responsive-btn">
+          <span class="btn-text">Latest Releases 2025</span>
+          <span class="arrow">›››</span>
+      </a>
+  </div>
+  
+  <style>
+  .btn-container {
+      max-width: 100%;
+      margin: 20px auto;
+      padding: 0 15px;
+  }
+  
+  .responsive-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+      background-color: #f00; /* Change color as needed */
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      width: fit-content;
+      position: relative;
+      gap: 10px;
+      font-size: clamp(1.2rem, 2vw, 2rem);
+  }
+  
+  .responsive-btn:hover {
+      transform: scale(1.05);
+      background-color: rgb(169, 2, 2); /* Darker shade for hover */
+  }
+  
+  .arrow {
+      font-weight: bold;
+      transition: transform 0.3s ease;
+      font-size: 1.5em;
+  }
+  
+  .responsive-btn:hover .arrow {
+      transform: translateX(5px);
+  }
+  
+  @media (max-width: 768px) {
+      .responsive-btn {
+          padding: 0.8rem 1.5rem;
+          font-size: 1.1rem;
+      }
+      .btn-container {
+      margin-bottom: 5.5%;
+      margin-top: 2.5%;
+
+      }
+      
+      .arrow {
+          font-size: 1.2em;
+      }
+  }
+  
+  @media (max-width: 480px) {
+      .responsive-btn {
+          width: 100%;
+          flex-direction: row;
+          padding: 0.8rem;
+      }
+      
+      .btn-container {
+      margin-bottom: 24%;
+
+      }
+  }
+  </style>
     <section >
       <div class="rel1">
       <div class="container ">
