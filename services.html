@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OUR SERVICES</title>
+    <title>Sevices - Boy Alone Records</title>
     <link rel="icon" href="assets/BOY ALONE LABEL icon.png" />
     <link
       rel="stylesheet"
@@ -21,81 +21,48 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut" href="/assets/BOY ALONE LABEL icon.png" />
   </head>
 
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-    crossorigin="anonymous"
-  />
-  <link rel="shortcut" href="/assets/BOY ALONE LABEL icon.png" />
-
-</head>
-<body >
-    <header style="background-color: #000; box-shadow: 0 0 23px red;">
-        <nav class="navbar navbar-dark bg-black navbar-expand-lg">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="./assets/BOY ALONE LABEL.png" alt="logo" class="logo" />
-              BOY ALONE RECORDS
-            </a>
-            <button
-              id="hero"
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav">
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title">Menu</h5>
-                <button
-                  type="button"
-                  class="btn-close btn-close-white"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="offcanvas-body" id="ham">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="artist.html">Artists</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="releases.html">Releases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="services.html">Our Sevices</a>
-                  </li>
-                  <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                  <br /><br /><br /><br />
-                  <hr />
-                  <img
-                    src="./assets/BOY ALONE LABEL icon.png"
-                    style="margin-left: 10%; margin-left: 5%"
-                    alt="logo2"
-                    class="logo2"
-                  />
-                  <div class="menu-nav">
-                    <p>&copy 2025 Copyright</p>
-                    <p>Privacy & Policy</p>
-                    <!-- <p>2025 All Right Reserved</p>  -->
-                  </div>
-                </ul>
-              </div>
+  <body style="background-color: #000">
+    <header style="position: fixed; width: 100%; top: 0; z-index: 10000;">
+      <nav class="navbar navbar-dark bg-black navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/BOY ALONE LABEL.png" alt="logo" class="logo" />
+            BOY ALONE RECORDS
+          </a>
+          <button
+            id="hero"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarNav">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-            <div class="collapse navbar-collapse">
-              <ul class="navbar-nav ms-auto d-none d-lg-flex" id="nav-bar">
+            <div class="offcanvas-body" id="ham">
+              <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="login.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="artist.html">Artists</a>
@@ -107,28 +74,137 @@
                   <a class="nav-link" href="services.html">Our Sevices</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <br /><br /><br /><br />
+                <hr />
+                <img
+                  src="./assets/BOY ALONE LABEL icon.png"
+                  style="margin-left: 10%; margin-left: 5%"
+                  alt="logo2"
+                  class="logo2"
+                />
+                <div class="menu-nav">
+                  <p>&copy 2025 Copyright</p>
+                  <p>Privacy & Policy</p>
+                  <!-- <p>2025 All Right Reserved</p>  -->
+                </div>
               </ul>
             </div>
           </div>
-        </nav>
-      </header>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto d-none d-lg-flex" id="nav-bar">
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="artist.html">Artists</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="releases.html">Releases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Our Sevices</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="mrservices">
+    <section  class="py-5 text-white" style="background-color: #000;">
+      <div class="container text-center">
+          <h2 class="mb-4 fw-bold" style="font-size: 3em; padding-top: 5%; padding-bottom: 3%;;">Our Services</h2>
+          <div class="row">
+              <!-- Service 1: Brand Partnership & Activation -->
+              <div class="col-md-6 mb-4">
+                  <div class="service-box p-4">
+                      <img src="assets/drake-lil-baby-celebration-atlanta-2022-billboard-1548.webp" alt="Brand Partnership" class="img-fluid mb-3">
+                      <h4 class="fw-bold">Brand Partnership & Activation</h4>
+                      <p>Collaborate with BOY ALONE RECORDS to develop tailor-made branded solutions for your marketing campaigns and brand activation efforts.</p>
+                      <a href="#" class="btn btn-outline-light">Start Collaborating</a>
+                  </div>
+              </div>
+              <!-- Service 2: Music Sync & Licensing -->
+              <div class="col-md-6 mb-4">
+                  <div class="service-box p-4">
+                      <img src="assets/istockphoto-2156128571-1024x1024.jpg" alt="Music Sync & Licensing" class="img-fluid mb-3">
+                      <h4 class="fw-bold">Music Sync & Licensing</h4>
+                      <p>Leverage our diverse catalog for use in games, TV shows, movies, or commercials.</p>
+                      <a href="#" class="btn btn-outline-light">Use Our Music</a>
+                  </div>
+              </div>
+              <!-- Service 3: Performance & Appearances -->
+              <div class="col-md-6 mb-4">
+                  <div class="service-box p-4">
+                      <img src="assets/Eminem-Live-from-Detroit-The-Concert-at-Michigan-Central-billboard-1548_8e7359.webp" alt="Performance & Appearances" class="img-fluid mb-3">
+                      <h4 class="fw-bold">Performance & Appearances</h4>
+                      <p>We create and manage bespoke events for you or your brand, handling everything from technical arrangements to venue selection.</p>
+                      <a href="#" class="btn btn-outline-light">Book Now</a>
+                  </div>
+              </div>
+              <!-- Service 4: Content Production -->
+              <div class="col-md-6 mb-4">
+                  <div class="service-box p-4">
+                      <img src="assets/music-producer-working-recording-studio-view-back-260521779.webp" alt="Content Production" class="img-fluid mb-3">
+                      <h4 class="fw-bold">Content Production</h4>
+                      <p>Our creative team crafts custom-made content suitable for you or your brand.</p>
+                      <a href="#" class="btn btn-outline-light">Send Us a Message</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</div>
+  
+  <style>
+.service-box {
+    background-color: #111;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    padding: 20px; /* Ensure proper spacing inside the box */
+    margin-bottom: 20px; /* Space between service boxes */
+}
+
+.service-box:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 5px 30px #f00;
+}
+
+/* Fix possible extra spacing caused by images */
+.service-box img {
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%; /* Ensure images take full width */
+    margin: 0; /* Remove unexpected spacing */
+    padding: 0;
+    display: block; /* Avoid unwanted space below images */
+}
+
+.btn-outline-light {
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-outline-light:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+/* Fix row spacing */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
-
-
-
-      <div style="text-align: center; margin-top: 20px;">
-        <iframe src="https://audiomack.com/embed/follow/your-audiomack-username?color=00ff00" scrolling="no" width="200" height="50" style="border: none;"></iframe>
-    </div>
-
-
-    <div style="text-align: center; margin-top: 20px;">
-      <iframe src="https://audiomack.com/embed/follow/your-audiomack-username?color=00ff00" scrolling="no" width="200" height="50" style="border: none;"></iframe>
-  </div>
-
-
-
-      
-</body>
+  </style>
+  
+  </body>
 </html>
