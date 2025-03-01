@@ -1,5 +1,5 @@
 let popup = document.getElementById("popup");
-let body = document.getElementById("login")
+let login = document.getElementById("login")
 
 function openPopup(){
 
@@ -9,5 +9,5 @@ function openPopup(){
 
 function closePopup(){
 
-    popup.classList.remove("open-popup")
+    popup.classList.remove("open-popup");
 }

@@ -9,44 +9,56 @@
   </head>
   <body id="lbody">
     <section id="login">
-      <img
-        src="assets/BOY ALONE LABEL icon.png"
-        width="50vw"
-        alt="logo"
-        height="50vh"
-        id="limg"
-      />
-      <h1 style="display: flex; justify-content: center;"><b>Login In</b></h1>
-      <hr />
-      <br />
-      <label for="name">Name</label><br />
-      <input type="text" id="name" /><br /><br />
-      <label for="password">Password</label><br />
-      <input type="password" id="password" /><br /><br />
-      <button type="submit" class="lbtn" onclick="openPopup()">Login</button><br><br>
-      <h4 style="margin-top: -0.5px;">Dont have an Account? <a href="signup.html">Sign up</a></h4>
-      
-      <div class="popup" id="popup">
-
-        <div class="lbody">
-          <img src="assets/verified-iconwebp.webp" alt="icon" style="scale: 0.7;" />
-        <h1
-          style="margin-left: 85%; margin-top: -5%; cursor: pointer"
-          onclick="closePopup()"
-        >
-        <span style="color: #ff0000; font-size: 24px;">❌</span>
-
-        </h1>
-        <h2>Thank you!</h2>
-        <p>Your details have successfully been submitted. Thanks!</p>
-        <a href="page.html"
-          ><button type="button" class="popbtn">Continue</button></a
-        >
+      <div class="keys">
+        <img
+          src="assets/BOY ALONE LABEL icon.png"
+          width="50vw"
+          alt="logo"
+          height="50vh"
+          id="limg"
+        />
+        <h1 style="display: flex; justify-content: center"><b>Login In</b></h1>
+        <hr />
+        <br />
+        <!-- <form> -->
+        <label for="name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          autocomplete="name"
+        /><br /><br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          autocomplete="current-password"
+        /><br /><br />
+        <button type="submit" class="lbtn" onclick="openPopup()">Login</button
+        ><br /><br />
+        <h4 style="margin-top: -0.5px">
+          Dont have an Account? <a href="signup.html">Sign up</a>
+        </h4>
+        <!-- </form> -->
+        <div class="popup" id="popup">
+          <div class="lbody">
+            <h1
+              style="margin-left: 85%; margin-top: -5%; cursor: pointer"
+              onclick="closePopup()"
+            >
+              <span style="color: #ff0000; font-size: 24px">❌</span>
+            </h1>
+            <h2>Thank you!</h2>
+            <p>Your details have successfully been submitted. Thanks!</p>
+            <a href="page.html"
+              ><button type="button" class="popbtn">Continue</button></a
+            >
+          </div>
+        </div>
       </div>
-    </div>
     </section>
 
     <script src="/main.js"></script>
   </body>
 </html>
-

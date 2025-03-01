@@ -9,37 +9,53 @@
   </head>
   <body id="lbody">
     <section id="login">
-      <img
-        src="assets/BOY ALONE LABEL icon.png"
-        width="50vw"
-        alt="logo"
-        height="50vh"
-        id="limg"
-      />
-      <h1 style="display: flex; justify-content: center;"><b>Sign up</b></h1>
-      <hr />
-      <br />
-      <label for="name">Name</label><br />
-      <input type="text" id="name" /><br /><br />
-      <label for="email">Email</label><br />
-      <input type="email" id="email" /><br /><br />
-      <button type="submit" class="lbtn" onclick="openPopup()">Sign up</button><br><br>
-      <h4 style="margin-top: -0.5px;">Already have an Account? <a href="index.html">Sign in</a></h4>
-
-      
+        <div class="keys">
+        <img
+          src="assets/BOY ALONE LABEL icon.png"
+          width="50vw"
+          alt="logo"
+          height="50vh"
+          id="limg"
+        />
+        <h1 style="display: flex; justify-content: center;"><b>Sign up</b></h1>
+        <hr />
+        <br />
+        <label for="name">Name</label><br />
+        <input type="text" id="name" list="nameList" /><br /><br />
+        <datalist id="nameList">
+          <option value="John Doe"></option>
+          <option value="Jane Smith"></option>
+          <option value="Michael Johnson"></option>
+          <option value="Emily Davis"></option>
+          <option value="Chris Brown"></option>
+        </datalist>
+        
+        <label for="email">Email</label><br />
+        <input type="email" id="email" list="emailList" /><br /><br />
+        <datalist id="emailList">
+          <option value="johndoe@example.com"></option>
+          <option value="janesmith@example.com"></option>
+          <option value="michaelj@example.com"></option>
+          <option value="emilyd@example.com"></option>
+          <option value="chrisb@example.com"></option>
+        </datalist>
+        
+        <button type="submit" class="lbtn" onclick="openPopup()">Sign up</button><br><br>
+        <h4 style="margin-top: -0.5px;">Already have an Account? <a href="index.html">Sign up</a></h4>
+    
       <div class="popup" id="popup">
         <div class="lbody">
-        <h1
-          style="margin-left: 85%; margin-bottom: -17%; cursor: pointer"
-          onclick="closePopup()"
-        >
-          ❌
-        </h1>
-        <h2>Thank you!</h2>
-        <p>Your details have successfully been submitted. Thanks!</p>
-        <a href="page.html"
-          ><button type="button" class="popbtn">Continue</button></a
-        >
+          <img
+              src="assets/verified-iconwebp.webp"
+              alt="icon"
+              style="scale: 0.7"
+              id="popimg2"
+            />
+          <h1 style="margin-left: 85%; margin-bottom: -17%; cursor: pointer" onclick="closePopup()" id="popicon2">❌</h1>
+          <h2>Thank you!</h2>
+          <p>Your details have successfully been submitted. Thanks!</p>
+          <a href="page.html"><button type="button" class="popbtn">Continue</button></a>
+        </div>
       </div>
     </div>
     </section>
@@ -47,4 +63,3 @@
     <script src="/main.js"></script>
   </body>
 </html>
-

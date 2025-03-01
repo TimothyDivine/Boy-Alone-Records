@@ -817,16 +817,76 @@ body {
   box-shadow: 0 0px 7px #989595;
 }
 
-
-@media (max-width: 768px) {
-
+@media (max-width: 425px) {
   #login {
-    /* padding: 15px; */
-    font-size: 1em;
-    width: 45%;
-    max-width: 150px;
-    height: 70vh;
+    width: 75%;
+    max-width: 350px;
+    padding-bottom: -30%;
   }
 
+  #limg {
+    scale: 0.8;
+    border-radius: 50%;
+  }
+
+  .keys {
+    margin-top: -38%;
+    scale: 0.94;
+    width: 150%;
+    margin-left: -26%;
+  }
+
+  .lbtn {
+    padding: 5px 10px;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #lbody {
+    padding-bottom: -30%;
+  }
+
+  .prompt {
+    scale: 0.80;
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  #login {
+    width: 75%;
+    max-width: 350px;
+    padding-bottom: -30%;
+  }
+  .lbtn {
+    padding: 5px 10px;
+  }
+
+  #limg {
+    scale: 0.8;
+    border-radius: 50%;
+  }
+
+  .keys {
+    margin-top: -10%;
+    scale: 0.94;
+    width: 130%;
+    margin-left: -16%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #lbody {
+    padding-bottom: -30%;
+  }
 
 }
