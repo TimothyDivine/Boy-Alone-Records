@@ -401,6 +401,11 @@ body {
     margin-left: 0%;
   }
 
+#pageim {
+  height: 30vh;
+  /* scale: 0.3; */
+}
+
   .myaudio1 {
     width: 100%;
     padding-left: 1%;
@@ -817,7 +822,7 @@ body {
   box-shadow: 0 0px 7px #989595;
 }
 
-@media (min-width: 56px) and (max-width: 425px) {
+@media (max-width: 425px) {
   #login {
     width: 75%;
     max-width: 350px;
@@ -877,15 +882,7 @@ body {
     padding: 5px 10px;
   }
 
-  #popup {
-    scale: 0.80;
-    /* margin-top: -10%; */
-    margin-left: -13%;
-  }
 
-  #popicon2 {
-    padding-bottom: 10%;
-  }
 
   #limg {
     scale: 0.8;
