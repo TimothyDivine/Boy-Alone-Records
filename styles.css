@@ -708,7 +708,7 @@ body {
 }
 
 .lbody {
-  outline: 300px solid #000000b7;
+  outline: 300px solid #000000a7;
   box-shadow: 0 0px 90px #f00;
   top: 50%;
   left: 50%;
@@ -817,7 +817,7 @@ body {
   box-shadow: 0 0px 7px #989595;
 }
 
-@media (max-width: 425px) {
+@media (min-width: 56px) and (max-width: 425px) {
   #login {
     width: 75%;
     max-width: 350px;
@@ -855,9 +855,19 @@ body {
     scale: 0.80;
     padding-bottom: 30%;
   }
+
+  #popup {
+    scale: 0.5;
+    margin-top: -30%;
+    margin-left: -54%;
+  }
+
+  #popicon2 {
+    padding-bottom: 10%;
+  }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   #login {
     width: 75%;
     max-width: 350px;
@@ -865,6 +875,16 @@ body {
   }
   .lbtn {
     padding: 5px 10px;
+  }
+
+  #popup {
+    scale: 0.80;
+    /* margin-top: -10%; */
+    margin-left: -13%;
+  }
+
+  #popicon2 {
+    padding-bottom: 10%;
   }
 
   #limg {
