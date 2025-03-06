@@ -961,8 +961,8 @@ body {
 .profile-back {
   display: grid;
   background-image: url(/assets/art-music-studio-background-dj-headphones-60120874.webp);
-  margin-left: -166%;
-  margin-right: -166%;
+  margin-left: -169%;
+  margin-right: -169%;
   border-radius: 20px;
   margin-bottom: -20%;
   /* object-fit: contain; */
