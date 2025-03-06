@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Boy Alone Records</title>
+    <link rel="icon" href="assets/BOY ALONE LABEL icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="lbody">
+    <section id="login">
+      <div class="keys">
+        <img
+          src="assets/BOY ALONE LABEL icon.png"
+          width="50vw"
+          alt="logo"
+          height="50vh"
+          id="limg"
+        />
+        <h1 style="display: flex; justify-content: center"><b>Login In</b></h1>
+        <hr />
+        <br />
+        <!-- <form> -->
+        <label for="name">Username</label><br />
+        <input
+          type="text"
+          id="myUserName"
+          name="name"
+          autocomplete="name"
+        /><br /><br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          autocomplete="current-password"
+        /><br /><br />
+        <button type="submit" class="lbtn" onclick="openPopup()">Login</button
+        ><br /><br />
+        <br />
+
+        <h4 style="margin-top: -0.5px">
+          Dont have an Account? <a href="signup.html">Sign up</a>
+        </h4>
+        <!-- </form> -->
+        <div class="popup" id="popup">
+          <div class="lbody">
+            <img
+              src="assets/verified-iconwebp.webp"
+              alt="icon"
+              style="scale: 0.7"
+              id="popimg2"
+            />
+            <h1
+              style="margin-left: 85%; margin-top: -5%; cursor: pointer"
+              onclick="closePopup()"
+            >
+              <span style="color: #ff0000; font-size: 24px">❌</span>
+            </h1>
+            <h2>Thank you!</h2>
+            <p>Your details have successfully been submitted. Thanks!</p>
+            <a href="login.html"
+              ><button type="button" onclick="setUserName()" id="myBtn" class="popbtn">
+                Continue
+              </button></a
+            >
+
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

@@ -401,10 +401,10 @@ body {
     margin-left: 0%;
   }
 
-#pageim {
-  height: 30vh;
-  /* scale: 0.3; */
-}
+  #pageim {
+    height: 30vh;
+    /* scale: 0.3; */
+  }
 
   .myaudio1 {
     width: 100%;
@@ -785,7 +785,7 @@ body {
 .open-popup {
   visibility: visible;
   top: 50%;
-  transform: translate(-50%, -50%) scale(1.3);
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .popup img {
@@ -845,7 +845,6 @@ body {
     padding: 5px 10px;
   }
 
-
   * {
     margin: 0;
     padding: 0;
@@ -857,7 +856,7 @@ body {
   }
 
   .prompt {
-    scale: 0.80;
+    scale: 0.8;
     padding-bottom: 30%;
   }
 
@@ -882,8 +881,9 @@ body {
     padding: 5px 10px;
   }
 
-
-
+  .form-box {
+    display: none;
+  }
   #limg {
     scale: 0.8;
     border-radius: 50%;
@@ -905,5 +905,109 @@ body {
   #lbody {
     padding-bottom: -30%;
   }
+}
 
+/* FOR SWITCH BUTTON */
+
+.form-box {
+  scale: 0.85;
+  margin-right: 3%;
+  /* background-color: blue; */
+  margin-top: -40%;
+  margin-bottom: -40%;
+  /* padding-bottom: -7%;
+  padding-bottom: -7%; */
+}
+
+.button-box {
+  width: 115px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 20px;
+  background-color: #1e1d1d;
+  outline: 2px solid red;
+}
+
+.toggle-btn {
+  padding: 5px 5px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.slbtn {
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 60px;
+  height: 100%;
+  background: #f00;
+  border-radius: 20px;
+  transition: 20ms ease;
+}
+
+/* USERNAME */
+
+.profile-pic {
+  margin-bottom: 40%;
+  margin-left: -50%;
+  scale: 0.8;
+  /* background-image: url(/assets/art-music-studio-background-dj-headphones-60120874.webp); */
+}
+
+.profile-back {
+  display: grid;
+  background-image: url(/assets/art-music-studio-background-dj-headphones-60120874.webp);
+  margin-left: -166%;
+  margin-right: -166%;
+  border-radius: 20px;
+  margin-bottom: -20%;
+  /* object-fit: contain; */
+  height: 70%;
+}
+
+.profile-name {
+  margin-top: -30%;
+  scale: 1.1;
+  margin-left: -150%;
+  margin-bottom: 30%;
+  color: #fff;
+}
+
+.profile-img {
+  width: 40vh;
+  border-radius: 50%;
+  margin-left: 30%;
+  margin-bottom: -28.5%;
+  margin-top: 5%;
+}
+
+.user-content {
+  display: grid;
+  justify-content: center;
+  margin-top: 5%;
+  background-color: #000;
+  box-shadow: 0 0 50px #f00;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 20px;
+}
+
+.profile-icon1 {
+  scale: 2;
+  margin-top: -1%;
+  margin-right: -5%;
+}
+
+#profile-icon {
+  color: white;
+  text-decoration: none;
+}
+
+#profile-icon:hover {
+  color: #f00;
+  border-bottom: 2px solid #f00;
 }
