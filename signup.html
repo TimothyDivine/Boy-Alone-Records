@@ -21,7 +21,7 @@
         <hr />
         <br />
         <label for="name">Name</label><br />
-        <input type="text" id="name" list="nameList" /><br /><br />
+        <input type="text" id="myUserName" list="nameList" /><br /><br />
         <datalist id="nameList">
           <option value="John Doe"></option>
           <option value="Jane Smith"></option>
@@ -54,7 +54,7 @@
           <h1 style="margin-left: 85%; margin-bottom: -17%; cursor: pointer" onclick="closePopup()" id="popicon2">❌</h1>
           <h2>Thank you!</h2>
           <p>Your details have successfully been submitted. Thanks!</p>
-          <a href="index.html"><button type="button" class="popbtn">Continue</button></a>
+          <a href="index.html"><button type="button" class="popbtn" onclick="setUserName()">Continue</button></a>
         </div>
       </div>
     </div>
